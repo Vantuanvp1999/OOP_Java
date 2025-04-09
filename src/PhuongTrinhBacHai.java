@@ -10,7 +10,7 @@ public class PhuongTrinhBacHai {
         System.out.println("Enter c: ");
         double c = sc.nextDouble();
         QuadraticEquation quadraticEquation = new  QuadraticEquation(a,b,c);
-        System.out.println(quadraticEquation.getRoot1()1);
+        System.out.println(quadraticEquation.getRoot1());
     }
     public static class QuadraticEquation {
         double a, b, c;
